@@ -1,13 +1,11 @@
 package com.synthesis;
 
-/**
- * Hello world!
- *
- */
+
 public class App 
 {
     public static void main( String[] args )
     {
-        System.out.println( "Hello World!" );
+        Config conf = new Config();
+        System.out.println("Running " + conf.getApplicationName() + "...");
     }
 }
